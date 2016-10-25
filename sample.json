@@ -1,0 +1,22 @@
+[
+{
+  "name" : "createUser",
+  "method" : "POST",
+  "path" : "/user"
+},
+{
+    "name": "getUser",
+    "method" : "GET",
+    "path" : "/user/:user_id"
+},
+{
+  "name": "deleteUser",
+  "method" : "DELETE",
+  "path" : "/user/:user_id"
+},
+{
+  "name": "updateUser",
+  "method" : "PUT",
+  "path" : "/user/:user_id"
+}
+]
