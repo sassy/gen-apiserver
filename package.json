@@ -2,11 +2,12 @@
   "name": "gen-apiserver",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "bin": "bin/index.js",
+  "main": "lib/main.js",
   "scripts": {
-    "start": "node main.js",
+    "start": "node bin",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Satoshi Watanabe",
   "license": "MIT"
 }
